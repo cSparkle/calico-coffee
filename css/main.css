@@ -81,14 +81,13 @@ header:before {
     color: #281d14;
 }
 
-#main-nav {
+#main-nav ul{
     display: none;
 }
 
 #hero a {
     text-decoration: none;
     list-style-type: none;
-    
     margin: 0px 20px;
 }
 
@@ -144,9 +143,15 @@ header:before {
     padding: 0px 10px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #menu {
     margin-top: 40px;
+    background-color: #faf4f0;
 }
 
 .menu-column {
@@ -191,7 +196,6 @@ header:before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
 }
 
 .info-section h3 {
@@ -202,9 +206,15 @@ header:before {
     margin-top: 20px;
 }
 
+#text p{
+    padding: 0px 50px;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    width: 70vw;
+    max-width: 500px;
 }
 
 label {
@@ -220,9 +230,66 @@ textarea {
     margin-bottom: 30px;
 }
 
+input:focus, textarea:focus {
+    outline: 1px solid #D4864B;
+    text-align: left;
+}
+
+#submit-button {
+    width: 50%;
+    align-self: center;
+}
+
 footer {
     background-color: #281d14;
     color: #F2E3D7;
     padding: 30px 0px;
     margin-top: 30px;
+}
+
+@media screen and (min-width: 610px) {
+    #kitties {
+        margin-top: 50px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    #menu {
+        display: flex;
+    }
+    #about-us {
+        margin: 0px 20px;
+    }
+    #dropdown {
+        display: none;
+    }
+    #main-nav ul{
+        display: flex;
+        position: absolute;
+        left: 20px;
+        top: 120px;
+    }
+    #main-nav a {
+        text-decoration: none;
+        list-style-type: none;
+        color: #F2E3D7;
+        margin: 0px 20px;
+    }
+    #main-nav a:hover {
+        font-weight: bolder;
+        color: #D4864B;
+    }
+}
+
+@media screen and (min-width: 930px) {
+    #text {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #text p{
+        padding: 0px 100px;
+    }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "calicocoffee",
+  "version": "1.0.0",
+  "description": "This file was last updated on November 16th, 2018.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cSparkle/calico-coffee.git"
+  },
+  "author": "Cortney Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cSparkle/calico-coffee/issues"
+  },
+  "homepage": "https://github.com/cSparkle/calico-coffee#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

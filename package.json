@@ -4,7 +4,8 @@
   "description": "This file was last updated on November 16th, 2018.",
   "main": "calicoCoffee.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/cSparkle/calico-coffee/issues"
   },
-  "homepage": "https://github.com/cSparkle/calico-coffee#readme",
+  "homepage": "https://csparkle.github.io/calico-coffee/",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }

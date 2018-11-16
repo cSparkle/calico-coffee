@@ -2,7 +2,7 @@
   "name": "calicocoffee",
   "version": "1.0.0",
   "description": "This file was last updated on November 16th, 2018.",
-  "main": "main.js",
+  "main": "calicoCoffee.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
